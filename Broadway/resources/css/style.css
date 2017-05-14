@@ -20,6 +20,7 @@ h1 {
 
 nav {
   font-size: 18px;
+  color: white;
 }
 
 h2 {
@@ -32,4 +33,15 @@ footer {
   color: white;
   background-color: dimgray;
   text-align: left;
+}
+
+
+
+.process_in_ny p {
+  font-size: 14px;
+}
+
+a {
+  color: white;
+  font-size: 18px;
 }

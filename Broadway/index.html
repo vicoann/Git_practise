@@ -6,18 +6,20 @@
   <link href="resources/css/style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-  <div class="building">
+
+  <header class="building">
   <h1>Broadway Design</h1>
   <nav>
-  <p>Home</p>
-  <p>Process</p>
-  <p>Work</p>
-  <p>Team</p>
-  <p>Contact</p>
+  <p><a href="#home">Home</a></p>
+  <p><a href="#process">Process</a></p>
+  <p><a href="#work">Work</a></p>
+  <p><a href="#team">Team</a></p>
+  <p><a href="#contact">Contact</a></p>
   <nav>
-  </div>
-  <div>
-    <h2>Our Process</h2>
+  </header>
+
+  <div class="process_in_ny">
+    <h2 id="process">Our Process</h2>
     <img src="./resources/images/identify.svg">
     <h3>Identify</h3>
     <p>We focus on the most important details.</p>
@@ -29,19 +31,26 @@
     <p>We put everything we have into our work.</p>
   </div>
 
-  <div>
+  <div class="process_in_ny">
     <h3 class="building">Designed in New York</h3>
-    <h4>Portfolio</h4>
+    <h3>Portfolio</h3>
     <p>Coming Soon</p>
-    <h4>Team</h4>
+    <h3 id="team">Team</h3>
     <p>We're Hiring!</p>
-    <h4>Contact</h4>
+    <h3 id="contact">Contact</h3>
     <p>Phone: (555)-555-5555</p>
     <p>E-mail: test@example.com</p>
     <p>Twitter: @test</p>
   </div>
+
   <footer>
-  <p> © Broadway 2016 Home Process Work Team Contact </p>
+  <p> © Broadway 2016
+    <a href="#home">Home</a>
+    <a href="#process">Process</a>
+    <a href="#work">Work</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
+  </p>
   </footer>
 </body>
 </html>
